@@ -25,4 +25,10 @@ vim删除前后n个字符
 	其中，"$"表示行尾，其他同上；
 
 2019/04/03
-domain name 
+domain name 域名	DNS --> domain name systerm 域名系统
+Dynamic Host Configuration Protocol, DHCP --> 动态主机设定协议
+用于內部網路或網絡服務供應商自動分配IP地址給用戶
+用于內部網路管理員作為對所有電腦作中央管理的手段
+
+2019/04/07
+afu server : git@120.25.74.135:/srv/git/name
