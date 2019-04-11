@@ -8,6 +8,8 @@ ClientAliveInterval  60   --应该是需要重启,本地端口也是一样的
 
 2019/04/01
 echo '' >> test.c
+add 2019/04/10
+echo '' > test.c 删除重新输入
 set .vimrc http://wiki.csie.ncku.edu.tw/vim/vimrc
 python using window10
   -->> https://blog.csdn.net/Alger_magic/article/details/79674404
@@ -32,3 +34,6 @@ Dynamic Host Configuration Protocol, DHCP --> 动态主机设定协议
 
 2019/04/07
 afu server : git@120.25.74.135:/srv/git/name
+
+2019/04/10
+/etc/shadowsocks/config.json
