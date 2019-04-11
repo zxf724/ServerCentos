@@ -37,3 +37,12 @@ afu server : git@120.25.74.135:/srv/git/name
 
 2019/04/10
 /etc/shadowsocks/config.json
+
+2019/04/11
+Chrome :
+Ctrl+T  新建一个标签页
+Ctrl+Shift+T  撤回上一个删除的标签页
+Ctrl+N   新建一个新窗口
+Ctrl+Shift+N  打开无痕浏览模式
+Ctrl+Tab  同一个窗口内的标签页切换
+
