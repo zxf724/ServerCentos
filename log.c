@@ -37,6 +37,11 @@ afu server : git@120.25.74.135:/srv/git/name
 
 2019/04/10
 /etc/shadowsocks/config.json
+	add 2019/04/13
+	/etc/init.d/shadowsocks start
+													stop
+													restart
+													status
 
 2019/04/11
 Chrome :
