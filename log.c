@@ -54,3 +54,5 @@ Ctrl+Tab  同一个窗口内的标签页切换
 2019/04/13
 ssh -o ServerAliveInterval=30 -p
 	--keep ssh alive
+	git reset --soft HEAD^ 
+	-- git reset commit 
