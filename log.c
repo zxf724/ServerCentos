@@ -51,3 +51,6 @@ Ctrl+N   新建一个新窗口
 Ctrl+Shift+N  打开无痕浏览模式
 Ctrl+Tab  同一个窗口内的标签页切换
 
+2019/04/13
+ssh -o ServerAliveInterval=30 -p
+	--keep ssh alive
