@@ -79,3 +79,5 @@ getting started MQTT  https://github.com/LiamBindle/MQTT-C
 	  /* publish coffee temperature with a QoS level of 1 */
     int temperature = 67;
 		mqtt_publish(&client, "coffee/temperature", &temperature, sizeof(int), MQTT_PUBLISH_QOS_1);
+
+github  最好不要大于50MB
