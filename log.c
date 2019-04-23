@@ -56,3 +56,26 @@ ssh -o ServerAliveInterval=30 -p
 	--keep ssh alive
 	git reset --soft HEAD^ 
 	-- git reset commit 
+
+2019/04/21
+https://www.4spaces.org/digitalocean-build-v2ray-0-1/
+vpn备选，v2ray可以提供选择
+
+2019/04/23
+uint8_t  头文件 stdint.h
+
+getting started MQTT  https://github.com/LiamBindle/MQTT-C
+1:
+    struct mqtt_client client; /* instantiate the client */
+		mqtt_init(&client, ...);   /* initialize the client */
+
+2:
+    mqtt_connect(&client, ...); /* send a connection request to the broker. */
+
+3:
+		/* subscribe to "toaster/temperature" with a max QoS level of 0 */
+    mqtt_subscribe(&client, "toaster/temperature", 0);
+4:
+	  /* publish coffee temperature with a QoS level of 1 */
+    int temperature = 67;
+		mqtt_publish(&client, "coffee/temperature", &temperature, sizeof(int), MQTT_PUBLISH_QOS_1);
