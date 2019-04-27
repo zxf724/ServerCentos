@@ -81,3 +81,7 @@ getting started MQTT  https://github.com/LiamBindle/MQTT-C
 		mqtt_publish(&client, "coffee/temperature", &temperature, sizeof(int), MQTT_PUBLISH_QOS_1);
 
 github  最好不要大于50MB
+
+2019/04/27
+potplay alt + c  录制视频
+
