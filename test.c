@@ -2,9 +2,14 @@
 #include <stdint.h>
 #include <stdlib.h>
 
+uint8_t communication(int *dat) {
+	uint8_t i = 0;
+	for(i=0;i<=8;i++){
+		printf("dat[%d] = %02x \n",i,dat[i]);
+	}
+}
+
 void main() {
-	uint8_t byte3 = 15;
-	static uint8_t dat[5] = {0x06,0x01,0x00,0x28,0x2f};
-	dat[3] = byte3;
-	printf("dat[3] = %02x",dat[3]);
+	static int dat[9] = {0x03,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x04};
+	communication(dat);
 }

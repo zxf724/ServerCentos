@@ -85,3 +85,25 @@ github  最好不要大于50MB
 2019/04/27
 potplay alt + c  录制视频
 
+2019/04/28
+git stash
+經常有這樣的事情發生，當你正在進行專案中某一部分的工作，裡面的東西處於一個比較雜亂的狀態，而你想轉到其他分支上進行一些工作。問題是，你不想只為了待會要回到這個工作點，就把做到一半的工作進行提交。解決這個問題的辦法就是 git stash 命令。
+
+2019/04/29
+vim 复制粘贴
+Normal modle :
+y(yank) p(put)  剪贴 d 和 p
+v(visual)  p
+yiw -> a word yy -> one line
+
+Insert mode:
+like the others use mouse 
+.vimrc autoindent  ->  set paste /  set nopaste
+
+regester:
+anonymous rester,  x删除一个字符（放入了无名寄存器）然后粘贴，可以做到调换
+a-z   --> "ayiw bdd cyy  ...  :reg a...
+默认0 为复制寄存器 "0  
+系统剪贴板  "+ 
+:echo has('clipboard')  输出1为支持剪贴板特性 即 "+
+set clipboard=unnamed  git应该是默认这种方式
