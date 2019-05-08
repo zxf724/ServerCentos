@@ -107,3 +107,6 @@ a-z   --> "ayiw bdd cyy  ...  :reg a...
 系统剪贴板  "+ 
 :echo has('clipboard')  输出1为支持剪贴板特性 即 "+
 set clipboard=unnamed  git应该是默认这种方式
+
+2019/05/08
+gcc --std=c99
