@@ -110,3 +110,6 @@ set clipboard=unnamed  git应该是默认这种方式
 
 2019/05/08
 gcc --std=c99
+
+2018/05/15
+vscode 选择多行  control+shift+上，下
