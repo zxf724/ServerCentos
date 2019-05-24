@@ -123,3 +123,11 @@ vscode 选择多行  control+shift+上，下
 2：关键词 -不想看到的词
 3：关键词 site:域名
 4：关键词 filetype:文件类型
+
+2019/05/24
+函数数组形参：
+void report_data(uint8_t cmd,uint8_t* data,uint8_t len) {
+	for(uint8_t i=0;i<=len;i++) {
+		*(data+i);
+	}
+}
