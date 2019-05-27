@@ -131,3 +131,6 @@ void report_data(uint8_t cmd,uint8_t* data,uint8_t len) {
 		*(data+i);
 	}
 }
+//C 定义和赋值
+定义：static uint8_t data[] = {0x00,0x01};
+赋值：data[0] = 0x01; data[1] = 0x02;
