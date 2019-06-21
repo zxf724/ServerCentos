@@ -135,8 +135,13 @@ void report_data(uint8_t cmd,uint8_t* data,uint8_t len) {
 定义：static uint8_t data[] = {0x00,0x01};
 赋值：data[0] = 0x01; data[1] = 0x02;
 
+2019/06/21
 windows10 开机自启动:
 	win + R shell:startup  放入快捷键
 
 zsh in linux 
 https://www.howtoforge.com/tutorial/how-to-setup-zsh-and-oh-my-zsh-on-linux/
+
+// 加速
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+
