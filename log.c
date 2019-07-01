@@ -145,3 +145,8 @@ https://www.howtoforge.com/tutorial/how-to-setup-zsh-and-oh-my-zsh-on-linux/
 // 加速
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 
+// 2019/06/23
+https://www.linuxidc.com/Linux/2019-06/158912.htm
+
+// 2019/06/25
+ git checkout -b whx origin/whx
