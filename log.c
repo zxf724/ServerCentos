@@ -150,3 +150,6 @@ https://www.linuxidc.com/Linux/2019-06/158912.htm
 
 // 2019/06/25
  git checkout -b whx origin/whx
+
+ // 2019/07/01                      
+ Google 搜索，选择region settings 台湾，用繁体字搜索即可
