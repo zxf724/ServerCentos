@@ -18,3 +18,4 @@ int main()
     printf("Convert to decimal:%ld\n",decimal);
     return 0;
 }
+
