@@ -156,3 +156,7 @@ https://www.linuxidc.com/Linux/2019-06/158912.htm
  // 2019/07/01                      
  Google 搜索，选择region settings 台湾，用繁体字搜索即可
  微軟拼音 繁體簡體切換 CTRL+SHIFT+F
+
+ //  2019/07/03
+ how to use mqtt in linux with mosquitoo
+ https://blog.csdn.net/weixin_41656968/article/details/80159589
