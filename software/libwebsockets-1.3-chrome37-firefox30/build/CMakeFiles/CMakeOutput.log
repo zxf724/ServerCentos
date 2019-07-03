@@ -1,0 +1,762 @@
+The system is: Linux - 3.10.0-327.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2746440251/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2746440251.dir/build.make CMakeFiles/cmTryCompileExec2746440251.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2746440251.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2746440251.dir/testCCompiler.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2746440251
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2746440251.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2746440251.dir/testCCompiler.c.o  -o cmTryCompileExec2746440251 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3313713166/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3313713166.dir/build.make CMakeFiles/cmTryCompileExec3313713166.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3313713166.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3313713166.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3313713166
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3313713166.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3313713166.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3313713166 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3313713166' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3313713166 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec3313713166.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3313713166/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3313713166.dir/build.make CMakeFiles/cmTryCompileExec3313713166.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3313713166.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3313713166.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3313713166]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3313713166.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3313713166.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3313713166 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3313713166' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3313713166 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec3313713166.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3313713166] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec3313713166.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2729841679/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2729841679.dir/build.make CMakeFiles/cmTryCompileExec2729841679.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2729841679.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2729841679.dir/testCXXCompiler.cxx.o -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2729841679
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2729841679.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2729841679.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2729841679 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2959454685/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2959454685.dir/build.make CMakeFiles/cmTryCompileExec2959454685.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2959454685.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2959454685.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2959454685
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2959454685.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2959454685.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2959454685 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2959454685' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2959454685 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec2959454685.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2959454685/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2959454685.dir/build.make CMakeFiles/cmTryCompileExec2959454685.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2959454685.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2959454685.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2959454685]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2959454685.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2959454685.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2959454685 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2959454685' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2959454685 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec2959454685.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2959454685] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec2959454685.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test HAVE_inline succeded with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec786243509/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec786243509.dir/build.make CMakeFiles/cmTryCompileExec786243509.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec786243509.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=inline -DHAVE_inline   -o CMakeFiles/cmTryCompileExec786243509.dir/src.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec786243509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec786243509.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_inline    CMakeFiles/cmTryCompileExec786243509.dir/src.c.o  -o cmTryCompileExec786243509 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test HAVE___inline__ succeded with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2633452667/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2633452667.dir/build.make CMakeFiles/cmTryCompileExec2633452667.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2633452667.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline__ -DHAVE___inline__   -o CMakeFiles/cmTryCompileExec2633452667.dir/src.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2633452667
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2633452667.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE___inline__    CMakeFiles/cmTryCompileExec2633452667.dir/src.c.o  -o cmTryCompileExec2633452667 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test HAVE___inline succeded with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec884488363/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec884488363.dir/build.make CMakeFiles/cmTryCompileExec884488363.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec884488363.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DHAVE___inline   -o CMakeFiles/cmTryCompileExec884488363.dir/src.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec884488363
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec884488363.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE___inline    CMakeFiles/cmTryCompileExec884488363.dir/src.c.o  -o cmTryCompileExec884488363 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Determining if the function bzero exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec82393759/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec82393759.dir/build.make CMakeFiles/cmTryCompileExec82393759.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec82393759.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=bzero   -o CMakeFiles/cmTryCompileExec82393759.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘bzero’ [enabled by default]
+/usr/share/cmake/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec82393759
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec82393759.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=bzero    CMakeFiles/cmTryCompileExec82393759.dir/CheckFunctionExists.c.o  -o cmTryCompileExec82393759 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3014009359/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3014009359.dir/build.make CMakeFiles/cmTryCompileExec3014009359.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3014009359.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTryCompileExec3014009359.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fork’ [enabled by default]
+/usr/share/cmake/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3014009359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3014009359.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fork    CMakeFiles/cmTryCompileExec3014009359.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3014009359 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2537486410/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2537486410.dir/build.make CMakeFiles/cmTryCompileExec2537486410.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2537486410.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=getenv   -o CMakeFiles/cmTryCompileExec2537486410.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2537486410
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2537486410.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getenv    CMakeFiles/cmTryCompileExec2537486410.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2537486410 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3384469585/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3384469585.dir/build.make CMakeFiles/cmTryCompileExec3384469585.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3384469585.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTryCompileExec3384469585.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’ [enabled by default]
+/usr/share/cmake/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3384469585
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3384469585.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTryCompileExec3384469585.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3384469585 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4248298535/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4248298535.dir/build.make CMakeFiles/cmTryCompileExec4248298535.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4248298535.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTryCompileExec4248298535.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’ [enabled by default]
+/usr/share/cmake/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec4248298535
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4248298535.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset    CMakeFiles/cmTryCompileExec4248298535.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4248298535 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec905580065/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec905580065.dir/build.make CMakeFiles/cmTryCompileExec905580065.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec905580065.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=realloc   -o CMakeFiles/cmTryCompileExec905580065.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘realloc’ [enabled by default]
+/usr/share/cmake/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec905580065
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec905580065.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realloc    CMakeFiles/cmTryCompileExec905580065.dir/CheckFunctionExists.c.o  -o cmTryCompileExec905580065 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec350687731/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec350687731.dir/build.make CMakeFiles/cmTryCompileExec350687731.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec350687731.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=socket   -o CMakeFiles/cmTryCompileExec350687731.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec350687731
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec350687731.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=socket    CMakeFiles/cmTryCompileExec350687731.dir/CheckFunctionExists.c.o  -o cmTryCompileExec350687731 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2129465242/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2129465242.dir/build.make CMakeFiles/cmTryCompileExec2129465242.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2129465242.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=strerror   -o CMakeFiles/cmTryCompileExec2129465242.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2129465242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2129465242.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strerror    CMakeFiles/cmTryCompileExec2129465242.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2129465242 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vfork exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1791446624/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1791446624.dir/build.make CMakeFiles/cmTryCompileExec1791446624.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1791446624.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=vfork   -o CMakeFiles/cmTryCompileExec1791446624.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1791446624
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1791446624.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vfork    CMakeFiles/cmTryCompileExec1791446624.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1791446624 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getifaddrs exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3474567380/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3474567380.dir/build.make CMakeFiles/cmTryCompileExec3474567380.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3474567380.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=getifaddrs   -o CMakeFiles/cmTryCompileExec3474567380.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3474567380
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3474567380.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getifaddrs    CMakeFiles/cmTryCompileExec3474567380.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3474567380 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec903694303/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec903694303.dir/build.make CMakeFiles/cmTryCompileExec903694303.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec903694303.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec903694303.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec903694303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec903694303.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec903694303.dir/CheckIncludeFile.c.o  -o cmTryCompileExec903694303 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3708447661/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3708447661.dir/build.make CMakeFiles/cmTryCompileExec3708447661.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3708447661.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec3708447661.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3708447661
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3708447661.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3708447661.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3708447661 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3706600212/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3706600212.dir/build.make CMakeFiles/cmTryCompileExec3706600212.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3706600212.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec3706600212.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3706600212
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3706600212.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3706600212.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3706600212 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3691399808/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3691399808.dir/build.make CMakeFiles/cmTryCompileExec3691399808.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3691399808.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec3691399808.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3691399808
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3691399808.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3691399808.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3691399808 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec514760268/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec514760268.dir/build.make CMakeFiles/cmTryCompileExec514760268.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec514760268.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec514760268.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec514760268
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec514760268.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec514760268.dir/CheckIncludeFile.c.o  -o cmTryCompileExec514760268 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1529764487/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1529764487.dir/build.make CMakeFiles/cmTryCompileExec1529764487.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1529764487.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec1529764487.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1529764487
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1529764487.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1529764487.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1529764487 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec401981822/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec401981822.dir/build.make CMakeFiles/cmTryCompileExec401981822.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec401981822.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec401981822.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec401981822
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec401981822.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec401981822.dir/CheckIncludeFile.c.o  -o cmTryCompileExec401981822 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2969346969/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2969346969.dir/build.make CMakeFiles/cmTryCompileExec2969346969.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2969346969.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec2969346969.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2969346969
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2969346969.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2969346969.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2969346969 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2384747983/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2384747983.dir/build.make CMakeFiles/cmTryCompileExec2384747983.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2384747983.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec2384747983.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2384747983
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2384747983.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2384747983.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2384747983 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/prctl.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1667221080/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1667221080.dir/build.make CMakeFiles/cmTryCompileExec1667221080.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1667221080.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec1667221080.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1667221080
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1667221080.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1667221080.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1667221080 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2113637972/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2113637972.dir/build.make CMakeFiles/cmTryCompileExec2113637972.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2113637972.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec2113637972.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2113637972
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2113637972.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2113637972.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2113637972 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2138212825/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2138212825.dir/build.make CMakeFiles/cmTryCompileExec2138212825.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2138212825.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec2138212825.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2138212825
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2138212825.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2138212825.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2138212825 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3282316625/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3282316625.dir/build.make CMakeFiles/cmTryCompileExec3282316625.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3282316625.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec3282316625.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3282316625
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3282316625.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3282316625.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3282316625 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec606608131/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec606608131.dir/build.make CMakeFiles/cmTryCompileExec606608131.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec606608131.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec606608131.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec606608131
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec606608131.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec606608131.dir/CheckIncludeFile.c.o  -o cmTryCompileExec606608131 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec891457937/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec891457937.dir/build.make CMakeFiles/cmTryCompileExec891457937.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec891457937.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec891457937.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec891457937
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec891457937.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec891457937.dir/CheckIncludeFile.c.o  -o cmTryCompileExec891457937 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2631711651/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2631711651.dir/build.make CMakeFiles/cmTryCompileExec2631711651.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2631711651.dir/CheckIncludeFiles.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec2631711651.dir/CheckIncludeFiles.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2631711651
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2631711651.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2631711651.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2631711651 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2807697471/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2807697471.dir/build.make CMakeFiles/cmTryCompileExec2807697471.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2807697471.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec2807697471.dir/CheckIncludeFile.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2807697471
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2807697471.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2807697471.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2807697471 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3323776377/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3323776377.dir/build.make CMakeFiles/cmTryCompileExec3323776377.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3323776377.dir/PID_T_SIZE.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec3323776377.dir/PID_T_SIZE.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CheckTypeSize/PID_T_SIZE.c
+Linking C executable cmTryCompileExec3323776377
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3323776377.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3323776377.dir/PID_T_SIZE.c.o  -o cmTryCompileExec3323776377 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1189452547/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1189452547.dir/build.make CMakeFiles/cmTryCompileExec1189452547.dir/build
+gmake[1]: Entering directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1189452547.dir/SIZE_T_SIZE.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec1189452547.dir/SIZE_T_SIZE.c.o   -c /home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CheckTypeSize/SIZE_T_SIZE.c
+Linking C executable cmTryCompileExec1189452547
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1189452547.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1189452547.dir/SIZE_T_SIZE.c.o  -o cmTryCompileExec1189452547 -rdynamic 
+gmake[1]: Leaving directory `/home/wenzong/software/libwebsockets-1.3-chrome37-firefox30/build/CMakeFiles/CMakeTmp'
+
+
