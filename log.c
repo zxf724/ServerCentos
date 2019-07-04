@@ -165,3 +165,11 @@ https://www.linuxidc.com/Linux/2019-06/158912.htm
  mosquitto_sub -t hello
  mosquitto_pub -t hello -h localhost -m "hello world!"
 
+https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE
+git tag:             
+git tag 
+git tag -a v1.0 -m "v1.0"
+git show v1.0
+git tag -a v1.1 -m "v1.1" 6fceb01
+git push origin v1.0
+git push origin --tags
