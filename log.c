@@ -160,3 +160,8 @@ https://www.linuxidc.com/Linux/2019-06/158912.htm
  //  2019/07/03
  how to use mqtt in linux with mosquitoo
  https://blog.csdn.net/weixin_41656968/article/details/80159589
+
+ //  2019/07/04
+ mosquitto_sub -t hello
+ mosquitto_pub -t hello -h localhost -m "hello world!"
+
