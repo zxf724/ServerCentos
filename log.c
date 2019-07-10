@@ -120,6 +120,7 @@ vscode 选择多行  control+shift+上，下
 每天下班的时候提交代码，养成好习惯
 
 2019/05/22
+Google:
 使用浏览器
 1：关键词外加英文双引号，表示完全匹配
 2：关键词 -不想看到的词
@@ -173,3 +174,4 @@ git show v1.0
 git tag -a v1.1 -m "v1.1" 6fceb01
 git push origin v1.0
 git push origin --tags
+
