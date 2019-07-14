@@ -175,3 +175,12 @@ git tag -a v1.1 -m "v1.1" 6fceb01
 git push origin v1.0
 git push origin --tags
 
+2019/07/12
+培训：
+基尔霍夫定律！！！
+
+2019/07/14
+error : git Please move or remove them before you can merge.
+lean  -d  -fx ""
+or  git add, than git merge dev
+
