@@ -184,3 +184,7 @@ error : git Please move or remove them before you can merge.
 lean  -d  -fx ""
 or  git add, than git merge dev
 
+recode commands:
+asciinema rec /tmp/hello.cast
+asciinema play /tmp/hello.cast
+
