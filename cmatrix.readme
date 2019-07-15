@@ -1,0 +1,5 @@
+https://blog.51cto.com/5232821/2146115
+yum install gcc automake autoconfig
+./configure
+make
+make install
