@@ -188,3 +188,17 @@ recode commands:
 asciinema rec /tmp/hello.cast
 asciinema play /tmp/hello.cast
 
+2019/08/05
+交流电AC ---> alternate current
+直流电DC ---> directly current
+
+2019/08/22
+orcad
+R V H
+control + E
+
+2019/09/11
+vscode 自动排版
+Clang_format_style ; Google
+control + k 
+control + f
